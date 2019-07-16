@@ -1,0 +1,60 @@
+{
+    "theaters": {
+        "id": "",
+        "name": "",
+        "address": {
+            "streetAddress1": "",
+            "streetAddress2": "",
+            "city": "",
+            "state": "",
+            "zipCode": ""
+        },
+        "isChain": false,
+        "chainID": null,
+        "dealIDs": [{
+            "id": ""
+        }],
+        "website": ""
+
+    },
+    "theaterChains": {
+        "id": "",
+        "name": "",
+        "website": ""
+
+    },
+    "deals": {
+        "id": "",
+        "name": "",
+        "regularPrice": null,
+        "newPrice": "",
+        "details": "",
+        "dateStart": "",
+        "dateEnd": "",
+        "timeStart": "",
+        "timeEnd": "",
+        "recurrence": "like.. ever two weeks? every first tuesday of the month? This could also be an object..",
+        "days": ["Monday, Tuesday, etc?, or have the days be calculated based on dates entered? or both"],
+        "theaterIDs": [],
+        "chainID": "",
+        "valid": true,
+        "upVotes": "",
+        "downVotes": "",
+        "website": "",
+        "comments": [{
+            "userID": "",
+            "text": "",
+            "date": "",
+            "time": ""
+        }]
+    },
+    "users": [{
+        "userID": "",
+        "firstName": "",
+        "lastName": "",
+        "zipCode": "",
+        "emailAddress": "",
+        "password": "",
+        "passwordDigest": ""
+    }]
+}
